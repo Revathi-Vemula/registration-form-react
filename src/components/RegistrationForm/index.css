@@ -1,0 +1,93 @@
+.reg-form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #ea580c;
+  font-size: 30px;
+  font-family: 'Consolas';
+  font-weight: 1000;
+}
+
+.submit-status {
+  font-family: 'Consolas';
+  font-size: 15px;
+}
+
+.btn-submit-another-response {
+  background-color: #ea580c;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 30px;
+  border-style: none;
+  color: #ffffff;
+  font-family: 'Consolas';
+  font-weight: bold;
+}
+
+.form {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 50%;
+  width: 40%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.label-name {
+  font-family: 'Consolas';
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.input-style {
+  height: 30px;
+  width: 90%;
+  border: solid 1px #9aa5b1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 0;
+  outline: none;
+}
+
+.error-name {
+  color: #ff0b37;
+  font-family: 'Consolas';
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.error-input-style {
+  border: solid 1px #ff0b37;
+  background-color: #fef2f4;
+}
+
+.btn-submit {
+  background-color: #ea580c;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 30px;
+  border-style: none;
+  color: #ffffff;
+  font-family: 'Consolas';
+  font-weight: bold;
+  width: 120px;
+  margin-top: 20px;
+  align-self: center;
+}
